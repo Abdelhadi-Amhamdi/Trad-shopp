@@ -19,7 +19,7 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="{{asset('/storage/'.$item->photo)}}" alt="">
+                            <img src="{{asset('/public/image/'.$item->photo)}}" alt="">
                         </div>
                         <div class="col-md-6">
                             <h1>{{$item->title}}</h1>
